@@ -1,6 +1,6 @@
 package box8OOPS;
 
-public class OOPs2 {
+public class StaticMethod {
 	public static void play() {
 		System.out.println("Cat is playing");
 	}
@@ -8,7 +8,7 @@ public class OOPs2 {
 	public static void main(String[] args) {
 		System.out.println("Hello cat World");
 		play();
-		OOPs3.sing();
+		StaticMethod2.sing();
 		// test();//CTE
 	}
 

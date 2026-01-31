@@ -1,6 +1,6 @@
 package box8OOPS;
 
-public class OOPs3 {
+public class StaticMethod2 {
 	public static void sing() {
 		System.out.println("Person is singing");
 	}
@@ -8,6 +8,6 @@ public class OOPs3 {
 	public static void main(String[] args) {
 		System.out.println("Welcome to human world");
 		sing();
-		OOPs2.play();
+		StaticMethod.play();
 	}
 }
