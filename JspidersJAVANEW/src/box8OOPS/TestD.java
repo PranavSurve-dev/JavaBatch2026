@@ -35,4 +35,6 @@ public class TestD {
 		System.out.println("Test End");
 		return 2 * a;
 	}
+
+	static int a = 10;
 }
