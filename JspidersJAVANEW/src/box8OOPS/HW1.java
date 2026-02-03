@@ -16,7 +16,6 @@ class maths {
 	static void fail() { // static method
 		System.out.println("maths done");
 	}
-
 }
 
 public class HW1 {
