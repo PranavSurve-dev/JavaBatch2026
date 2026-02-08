@@ -6,11 +6,11 @@ class modak {
 		System.out.println("(Kesar) non-parameter const");
 	}
 
-	modak(inta a) {
+	modak(int a) {
 		System.out.println("(choco) int parameter const");
 	}
 
-	modak(double ) {
+	modak(double d) {
 		System.out.println("(sakhar) double parameter const");
 	}
 
@@ -24,8 +24,9 @@ public class Festival {
 
 		System.out.println("main start");
 		modak m1 = new modak();
-		modak m2 = new modak(50.5);
-		modak m3 = new modak(5.5, 70);
+		modak m2 = new modak(50);
+		modak m3 = new modak(5.50);
+		modak m4 = new modak(14, 2.55);
 		System.out.println("main end");
 	}
 }

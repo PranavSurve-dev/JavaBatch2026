@@ -2,10 +2,8 @@ package box5Programs;
 
 public class ReverseNO {
 	public static void main(String[] args) {
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("Enter a no for reverse");
-//		int u = sc.nextInt();
-		int num = 1432;
+
+		int num = 3888;
 		int rev = 0;
 
 		while (num > 0) {

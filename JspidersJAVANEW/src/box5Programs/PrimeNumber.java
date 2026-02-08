@@ -2,7 +2,7 @@ package box5Programs;
 
 public class PrimeNumber {
 	public static void main(String[] args) {
-		int num = 17;
+		int num = 19;
 		boolean isPrime = true;
 
 		if (num <= 1) {
