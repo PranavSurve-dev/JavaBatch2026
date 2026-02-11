@@ -1,18 +1,20 @@
 package box12FinalVariable;
 
+/*INTERVIEW QN:- WAJP to create unique employees id's for the employees of JPmorgan company 
+- Create 5 to 7 object of employees and print the details*/
 class employee {
 	String name;
 	final String empid;
 	double sal;
 
-	private static int randomnum = 700;
+	private static int randomnum = 700; // IMPORTANT FOR UNDERSTANDING CONCEPT-1
 
 	// Constructor
 
 	public employee(String name, double sal) {
 
 		this.name = name;
-		this.empid = "JPm" + randomnum++;
+		this.empid = "JPm" + randomnum++;// IMPORTANT FOR UNDERSTANDING CONCEPT-2
 		this.sal = sal;
 	}
 
