@@ -1,4 +1,4 @@
-package box8OOPS;
+package box8OOPSBasic;
 
 public class OOPs1 {
 	public static void main(String[] args) {

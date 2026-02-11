@@ -1,4 +1,4 @@
-package box8OOPS;
+package box8OOPSBasic;
 
 public class DDLJ {
 	int d = 888;// non-static global variable

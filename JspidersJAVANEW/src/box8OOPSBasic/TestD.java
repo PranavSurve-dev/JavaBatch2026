@@ -1,4 +1,4 @@
-package box8OOPS;
+package box8OOPSBasic;
 
 //Static Initializers
 public class TestD {

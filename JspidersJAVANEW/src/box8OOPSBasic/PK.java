@@ -1,4 +1,4 @@
-package box8OOPS;
+package box8OOPSBasic;
 
 class RaOne { // diff class same source file
 	int i = 500; // non-static global variable

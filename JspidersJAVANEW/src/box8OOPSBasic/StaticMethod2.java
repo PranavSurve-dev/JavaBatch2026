@@ -1,4 +1,4 @@
-package box8OOPS;
+package box8OOPSBasic;
 
 public class StaticMethod2 {
 	public static void sing() {

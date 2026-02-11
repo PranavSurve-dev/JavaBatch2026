@@ -1,4 +1,4 @@
-package box8OOPS;
+package box8OOPSBasic;
 
 public class HW2 {
 	int x = 100;

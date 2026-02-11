@@ -1,6 +1,6 @@
-package box8OOPS;
+package box8OOPSBasic;
 
-import box8OOPS.HW2.bio;
+import box8OOPSBasic.HW2.bio;
 
 class notebook {
 	int a = 20; // non-static global variable
