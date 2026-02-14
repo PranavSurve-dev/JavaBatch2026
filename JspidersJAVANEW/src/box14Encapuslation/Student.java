@@ -3,7 +3,7 @@ package box14Encapuslation;
 public class Student { // Step-1 Public class
 
 	private String name; // Step -2 Private attribute
-	private int rollno;
+	private final int rollno;
 	private double cgpa;
 
 	// Step-3 public Constructor
@@ -15,12 +15,29 @@ public class Student { // Step-1 Public class
 	}
 
 	// STep-4 public Getters & Setters
-	public String getanme() {
+	public String getname() {
 		return name;
 	}
 
-	public int getarollno() {
+	public void setname(String name) {
+		this.name = name;
+	}
+
+	public int getrollno() {
 		return rollno;
+	}
+
+//	public void setrollno(int rollno) {
+//		this.rollno = rollno;
+//	}
+
+	public double getcgpa() {
+		return cgpa;
+
+	}
+
+	public void setcgpa(double cgpa) {
+		this.cgpa = cgpa;
 	}
 
 }

@@ -6,6 +6,7 @@ public class Wipro {
 		System.out.println(e1.getEmpid());
 		System.out.println(e1.getName());
 		e1.setName("surve");
+		System.out.println(e1.getName());
 		System.out.println(e1.getSal());
 		e1.setSal(900000);
 	}
