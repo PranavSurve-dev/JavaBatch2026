@@ -1,5 +1,6 @@
 package box15Inheritance;
 
+//Multilevel Inheritance
 public class HamSathSathHai {
 	public static void main(String[] args) {
 		beti b1 = new beti();// sub class object-1

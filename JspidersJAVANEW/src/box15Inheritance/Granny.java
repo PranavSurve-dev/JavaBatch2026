@@ -1,6 +1,7 @@
 package box15Inheritance;
 
-class Granny { // Multilevel Inheritance
+//Multilevel Inheritance
+class Granny {
 	void pyar() {
 		System.out.println("Dadi ka pyar");
 	}
