@@ -1,5 +1,6 @@
 package box15Inheritance;
 
+//Single Inheritance
 class father {
 	void gold() { // parent class , super class
 		System.out.println("10kg Gold");
