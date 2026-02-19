@@ -35,7 +35,7 @@ class Employee extends person {
 	String Designation;
 
 	public Employee(String name, int age, char gen, int empid, double sal, String designation) {
-		super("saras", 20, 'M');
+		super(name, age, gen);
 		this.empid = empid;
 		this.sal = sal;
 		this.Designation = designation;
