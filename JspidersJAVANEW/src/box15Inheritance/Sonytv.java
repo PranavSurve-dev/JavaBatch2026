@@ -17,20 +17,23 @@ class person {
 class student extends person {
 	int roll;
 	double per;
+	String collage;
 
 	public student(String name, int age, char gen, int roll, double per, String collage) {
-		super(name, age, gen);
+		super("pranav", 22, 'm');
 		this.roll = roll;
 		this.per = per;
 		this.collage = collage;
+		System.out.println("B...inside student constructor");
 	}
-
-	String collage;
 
 }
 
 public class Sonytv {
 	public static void main(String[] args) {
+		person p1 = new person();
+		p1.person();
 
+		System.out.println();
 	}
 }
