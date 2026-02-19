@@ -5,7 +5,7 @@ public class HamSathSathHai {
 	public static void main(String[] args) {
 		beti b1 = new beti();// sub class object-1
 		b1.pyar();
-//		b1.care();
+		b1.care();
 		b1.kalesh();
 		System.out.println("---------------------");
 		mom m1 = new mom();// sub class object - 2

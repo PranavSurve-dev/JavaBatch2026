@@ -13,7 +13,7 @@ class mom extends Granny {
 	}
 }
 
-class beti extends Granny {
+class beti extends mom {
 	void kalesh() {
 		System.out.println("Shopping.......");
 	}
