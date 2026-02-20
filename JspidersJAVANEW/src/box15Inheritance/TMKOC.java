@@ -1,5 +1,6 @@
 package box15Inheritance;
 
+//Implicit Constructor call 
 class champklal {
 	champklal() {// Constructor-1
 		System.out.println("A...Nahane ja");
