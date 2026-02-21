@@ -27,7 +27,7 @@ package progrmas;
 public class PrimeNumber {
 	public static void main(String[] args) {
 
-		int num = 17;
+		int num = 19;
 		int count = 0;
 
 		for (int i = 1; i <= num; i++) {
