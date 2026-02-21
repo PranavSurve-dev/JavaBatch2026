@@ -47,15 +47,13 @@ class helper extends person {
 
 	int id;
 	double sal;
+	char ch;
 
-	public helper(String name, int age, char gen) {
-		super(name, age, gen);
-	}
-
-	public helper(String name, int age, char gen, int id, double sal) {
+	public helper(String name, int age, char gen, int id, double sal, char ch) {
 		super(name, age, gen);
 		this.id = id;
 		this.sal = sal;
+		this.ch = ch;
 		System.out.println("D...inside helper constructor ");
 	}
 
@@ -74,7 +72,7 @@ public class Sonytv {
 		Employee e1 = new Employee("surve", 23, 'M', 500, 5.5, "developer");
 		System.out.println("------------------");
 
-		helper h1 = new helper("surve", 23, 'M', 101, 25000);
+		helper h1 = new helper("surve", 23, 'M', 101, 25000, 'm');
 		System.out.println("Sony End");
 	}
 }
